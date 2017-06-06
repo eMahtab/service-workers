@@ -1,0 +1,18 @@
+ <!DOCTYPE HTML>
+  <html>
+  <head>
+  <title>Audio</title>
+  </head>
+  <body>
+
+    <audio id="audio" src="sounds/911.wav" autostart="false" ></audio>
+    <a onclick="playSound();"> Play</a>
+    <script>
+    function playSound() {
+          var sound = document.getElementById("audio");
+          sound.play();
+      }
+    </script>
+
+ </body>
+ </html>
